@@ -5,7 +5,7 @@
 ###
 
 result = []
-ARGV.each do arg
+ARGV.each do |arg|
     # skip if not integer
     next if arg !~ /^-?[0-9]+$/
 
